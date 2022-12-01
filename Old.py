@@ -387,14 +387,21 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
-logo =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+logo = """      .
+.------..------..------.
+|M.--. ||M.--. ||S.--. |
+| (\/) || (\/) || :/\: |
+| :\/: || :\/: || :\/: |
+| '--'M|| '--'M|| '--'S|
+`------'`------'`------';:' 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 \x1b[1;78m-------------------------
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••• 
 \x1b[1;90m[+] 𝗔𝗨𝗧𝗛𝗢𝗥     :   RAIHAN(BBH)     
-\x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   :  Abu Raihan
+\x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   :    Abu Raihan
 \x1b[1;92m[+] 𝗚𝗜𝗧𝗛𝗨𝗕      :   falto4437
-\x1b[1;98m[+] FROM        :   BANGLADESH 
-\x1b[1;93m[+] 𝗧𝗘𝗔𝗠        :   \33[1;42  BANGLADESH BEST-11 HACKERS\33[0m
+\x1b[1;98m[+] FROM        :   BANGLADESH
+\x1b[1;93m[+] 𝗧𝗘𝗔𝗠        :   \33[1;42  BEST-11 HACKERS\33[0m
 \x1b[1;94m[+] 𝗩𝗘𝗥𝗦𝗜𝗢𝗡     :\x1b[1;97m  1.0.2    \x1b[1;97m          
 \033[1;80m•••••••••••••••••••••••••••••••••••••••••••••• 
 """
@@ -424,7 +431,7 @@ class Main:
 			print("    Thanks♥️")
 			exit()
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://www.facebook.com/profile.php?id=100003472256152&mibextid=ZbWKwL")
+			os.system("xdg-open https://www.facebook.com/profile.php?id=100003472256152&mibextid=ZbWKwL ")
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    CHECKING APPROVAL ")
